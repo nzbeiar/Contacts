@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="747dcd37-4c73-4a06-b60e-6cd418809973" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/ContactFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/command/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/command/Edit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/command/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/command/MenuAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/command/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/command/Remove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/contact/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/contact/OrgContact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/contact/RegularContact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/ContactBuilder/Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/ContactBuilder/Contact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/ContactBuilder/ContactBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/ContactBuilder/Director.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/contacts/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/contacts/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/contacts/command/PhoneBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +62,26 @@
       <recent name="C:\Users\nazar.beiar\Development\Contacts\src\main\java\org\contacts" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.contacts.Main" />
+      <module name="Contacts.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.contacts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +94,9 @@
       <workItem from="1666878020117" duration="11000" />
       <workItem from="1666945172224" duration="17000" />
       <workItem from="1666955613774" duration="4000" />
+      <workItem from="1667396366519" duration="1549000" />
+      <workItem from="1667467105847" duration="605000" />
+      <workItem from="1667469223651" duration="336000" />
     </task>
     <servers />
   </component>
