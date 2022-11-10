@@ -2,11 +2,12 @@ package org.contacts.contact;
 
 import org.contacts.command.PhoneBook;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public abstract class Contact {
+public abstract class Contact implements Serializable {
 
     protected String name = "";
     protected String number = "";
@@ -16,6 +17,7 @@ public abstract class Contact {
     LocalDateTime editedDate;
 
     public abstract Contact edit(PhoneBook phoneBook);
+    public abstract String representation();
 
     public Contact(String name, String number) {
         this.name = name;

@@ -1,17 +1,19 @@
 package org.contacts.command;
 
+
+import org.contacts.contact.Contact;
+
 public class Remove implements MenuAction {
+
+    Contact contactToRemove;
+
+    public Remove(Contact contact) {
+        this.contactToRemove = contact;
+    }
+
 
     @Override
     public void execute(PhoneBook phoneBook) {
-        if(MenuAction.count(phoneBook) < 1) {
-            System.out.println("No records to remove!");
-        } else {
-            list(phoneBook);
-            System.out.print("Select a record: ");
-            String index = phoneBook.scanner.nextLine();
-            phoneBook.book.remove(Integer.parseInt(index)-1);
-            System.out.println("The record removed!");
-        }
+        phoneBook.book.remove(contactToRemove);
     }
 }

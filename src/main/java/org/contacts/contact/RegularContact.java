@@ -2,10 +2,11 @@ package org.contacts.contact;
 
 import org.contacts.command.PhoneBook;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.Scanner;
 
-public class RegularContact extends Contact {
+public class RegularContact extends Contact{
 
     private String surname;
     private String birthdate;
@@ -48,9 +49,14 @@ public class RegularContact extends Contact {
                 }
             }
         }
-        System.out.println("The record updated!");
+        System.out.println("Saved");
         this.setEditedDate(LocalDateTime.now().withSecond(0).withNano(0));
         return this;
+    }
+
+    @Override
+    public String representation() {
+        return name + surname + number + gender + birthdate + createdDate + editedDate;
     }
 
     @Override

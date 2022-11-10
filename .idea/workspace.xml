@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="747dcd37-4c73-4a06-b60e-6cd418809973" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/ContactFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/command/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/command/Edit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/command/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/command/MenuAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/command/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/command/Remove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/contact/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/contact/OrgContact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contacts/contact/RegularContact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/ContactBuilder/Builder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/ContactBuilder/Contact.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/ContactBuilder/ContactBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/ContactBuilder/Director.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/contacts/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/contacts/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/contacts/command/PhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/contact/OrgContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/contacts/contact/OrgContact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/contacts/contact/RegularContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/contacts/contact/RegularContact.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +45,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nazar.beiar\Development\Contacts\src\main\java\org\contacts" />
+      <recent name="C:\Users\nazar.beiar\Development\Contacts\src\main\java" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,7 +82,12 @@
       <workItem from="1666955613774" duration="4000" />
       <workItem from="1667396366519" duration="1549000" />
       <workItem from="1667467105847" duration="605000" />
-      <workItem from="1667469223651" duration="336000" />
+      <workItem from="1667469223651" duration="2166000" />
+      <workItem from="1667836657724" duration="87000" />
+      <workItem from="1667927825256" duration="1234000" />
+      <workItem from="1667932108293" duration="600000" />
+      <workItem from="1668000900465" duration="333000" />
+      <workItem from="1668079448409" duration="47000" />
     </task>
     <servers />
   </component>

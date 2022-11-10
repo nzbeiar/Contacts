@@ -2,23 +2,29 @@ package org.contacts.command;
 
 import org.contacts.contact.Contact;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class PhoneBook {
+public class PhoneBook{
 
     List<Contact> book;
-    public Scanner scanner;
+    transient public Scanner scanner;
 
-    public PhoneBook(Scanner scanner) {
+    public PhoneBook() {
         this.book = new ArrayList<>();
-        this.scanner = scanner;
     }
 
     public List<Contact> getBook() {
         return book;
     }
 
+    public void setScanner(Scanner scanner) {
+        this.scanner = scanner;
+    }
 
+    public void setBook(List<Contact> book) {
+        this.book = book;
+    }
 }
